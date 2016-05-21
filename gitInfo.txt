@@ -1,1 +1,7 @@
 Git is a version control system, a tool to manage your source code history. GitHub is a hosting service for Git repositories. So they are not the same thing: Git the tool, GitHub the service for projects that use Git.
+
+git pull does a git fetch followed by a git merge.
+
+If you do not wish to merge the remote branch into your local branch and want to do a force push, use the push command with -f:
+git push -f origin <branch>
+
